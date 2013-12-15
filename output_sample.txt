@@ -1,0 +1,25 @@
+Boolean Expression Evaluator
+
+Boolean expression:
+R = A or B and ( D xor ( B and C ) )
+
+A B D C  | R
+=============
+0 0 0 0  | 0
+0 0 0 1  | 0
+0 0 1 0  | 0
+0 0 1 1  | 0
+0 1 0 0  | 0
+0 1 0 1  | 1
+0 1 1 0  | 1
+0 1 1 1  | 0
+1 0 0 0  | 1
+1 0 0 1  | 1
+1 0 1 0  | 1
+1 0 1 1  | 1
+1 1 0 0  | 1
+1 1 0 1  | 1
+1 1 1 0  | 1
+1 1 1 1  | 1
+
+Done
